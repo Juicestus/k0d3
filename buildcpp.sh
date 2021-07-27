@@ -1,0 +1,1 @@
+g++ -std=c++20 k0d3.cpp -o k0d3

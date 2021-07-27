@@ -1,0 +1,20 @@
+(Test file in the .k0d3 computer language,
+ prints all numbers until 50,
+ written by Justus Languell)
+
+_ + 0 0 #x; 	 (Adds 0 to 0 and sets that to a new variable x)
+a + #x 0.5 #x;	 (With a goto pointer, adds 0.5 to x and sets that to x)
+_ @ #x 2 #y;	 (Rounds x to 2 decimal places and sets that to new variable y)
+_ # #y;		 (Prints y to the console)
+_ * #x -1 #z;	 (Multiplies x by -1 and sets that to new variable z)
+_ + #z 50 #z; 	 (Adds 50 to z and sets that to z)
+_ $ #z $a;	 (Jumps up to goto pointer a if z is greater than 0)
+
+(? add command then sub command,
+possibly in k0d3++
+- Examples -
+jump if number less than 0:
+? < #number 0 $goto
+a + b = c:
+# + #a #b #c
+)
